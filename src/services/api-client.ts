@@ -1,11 +1,13 @@
-import axios from "axios";
-
+import axios from "axios"
 export default axios.create({
-    baseURL: 'https://rawg-video-games-database.p.rapidapi.com',
+    baseURL: 'https://free-to-play-games-database.p.rapidapi.com/api',
     headers: {
         'X-RapidAPI-Key': '78d4a2f4f6msh6a015dfb10f3defp14ff69jsnc9c64adef827',
-        'X-RapidAPI-Host': 'rawg-video-games-database.p.rapidapi.com'
+        'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
       }
+    
     
 }
 )
+
+

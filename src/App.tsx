@@ -1,3 +1,4 @@
+import GameGrid from "./components/GameGrid";
 import NavBar from "./components/NavBar";
 import { ThemeProvider } from "./components/ThemeProvider";
 
@@ -8,9 +9,9 @@ const App = () => {
         <div>
           <NavBar />
         </div>
-        <div>
+        <div className="flex flex-rows justify-between">
           <div className="hidden sm:block">Aside</div>
-          <div>Main</div>
+          <GameGrid />
         </div>
       </div>
     </ThemeProvider>
